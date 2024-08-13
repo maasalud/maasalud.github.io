@@ -280,6 +280,8 @@ para pc
 .menu{
 	width: 100%;
 	background: white;
+	position: sticky;
+	top: 0;
 }
 
 .menu-cuerpo{
@@ -321,11 +323,23 @@ opacity: 0;
 }
 
 .car1{
-	width: 120px;
-	height: 140px;
+	width: 100%;
+	height: 100vh;
 }
 
-/* responsivo para moviles  */
+
+
+
+
+
+/*contenido*/
+
+
+
+
+
+
+
 
 
 
@@ -412,6 +426,13 @@ opacity: 0;
 
 
 
+
+
+
+
+
+/* responsivo para moviles  */
+
 @media (max-width:430px){
 	.title{
 	background:#892a7e;
@@ -423,13 +444,13 @@ opacity: 0;
 .direccion{
 	float: inline-end;
 	position: relative;
-	top: 15px;  right: 15px;
+	top: 15px;  right: 10px;
 	font-size: 15px;
 }
 
 .red{
 	position: absolute;
-	top: 15px;  left: 15px;
+	top: 15px;  left: 10px;
 }
 
 
