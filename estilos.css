@@ -169,18 +169,18 @@ i{
 	background:#892a7e;
 	color: white;
 	width: 100%;
-	height: 10vh;
+	height: 14vh;
 }
 
 .direccion{
 	float: inline-end;
 	position: relative;
-	top: 30px;  right: 60px;
+	top: 25px;  right: 60px;
 }
 
 .red{
 	position: absolute;
-	top: 30px;  left: 60px;
+	top: 25px;  left: 60px;
 }
 
 
@@ -199,6 +199,7 @@ i{
 	left: 0px; top: 145px;
 	height: 100vh;
 	text-align: center;
+	top: 90px;
 	display: none;
 }
 
@@ -238,7 +239,7 @@ i{
 	top: 20px; right: 170px;
 }
 #togg{
-	opacity: 1;
+	opacity: 0;
 }
 
 
@@ -255,7 +256,7 @@ i{
 }
 
 #img{
-	display: none;
+	opacity: 0;
 }
 
 
@@ -294,7 +295,7 @@ i{
 	background:#892a7e;
 	color: white;
 	width: 100%;
-	height: 6vh;
+	height: 7vh;
 }
 
 .direccion{
@@ -312,8 +313,8 @@ i{
 
 .menu{
 	width: 100%;
-	height: 8vh;
-	background: white;
+	height:15vh;
+	background: whitse;
 	position: sticky;
 	top: 0;
 }
@@ -354,8 +355,9 @@ i{
 }
 #togg{
 	opacity: 0;
-
 }
+
+
 
 .footer{
  	background: #3874F0;
@@ -392,7 +394,8 @@ i{
 }
 
 #img{
-	width: 350px;
+	display: none;
+	width: 340px;
 	height: 250px;
 	border-radius: 30px;
 }
