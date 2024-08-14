@@ -164,7 +164,7 @@ i{
 
 /* responsivo para tablets */
 
-@media (max-width:760px){
+@media (max-width:930px){
 	.title{
 	background:#892a7e;
 	color: white;
@@ -240,6 +240,45 @@ i{
 #togg{
 	opacity: 1;
 }
+
+
+.somos{
+	display: block;
+	width: 100%;
+	height: 70vh;
+}
+
+.prima{
+	width: 83%;
+	height: 60vh;
+	padding: 30px;
+}
+
+#img{
+	display: none;
+}
+
+
+.valores{
+	width: 100%;
+}
+#val{
+	width: 100%;
+	margin: 5px;
+	padding: 15px;
+	font-size: 16px;
+}
+
+i{
+	margin: 5px;
+	font-size: 20px;
+}
+
+.ubi{
+	width: 75%;
+}
+
+
 }
 
 
