@@ -175,10 +175,10 @@ header{
 }
 
 .serv{
-	margin: 20px;
-	max-width: 67%;
+
+	margin: 30px;
 	background: #1f7bc0;
-	margin-left: 80px;
+	margin-left: 35px;
 	border-radius: 5px;
 	cursor: pointer;
 }
