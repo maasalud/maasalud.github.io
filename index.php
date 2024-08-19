@@ -12,7 +12,7 @@
 	<title>MAX SALUD</title>
 </head>
 <body>	
-			<! -- titulo -->
+			<!-- titulo -->
 
 
 		<div class="title" >	
@@ -28,7 +28,7 @@
 				 </div>
 		</div>
 
-			<! -- menu y logo -->		
+			<!-- menu y logo -->		
 
 
 
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 
-<!-- contenido	 
+<!-- contenido-->
 			<div class="car" >
 				<img  class="car1" src="img/carousel.jpg">
 			</div>
