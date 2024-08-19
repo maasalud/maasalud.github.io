@@ -42,7 +42,7 @@
 						<li id="menu-li"><a id="men" href="#">INICIO</a></li>
 						<li id="menu-li"><a id="men" href="#">SERVICIOS</a></li>
 						<li id="menu-li"><a id="men" href="#">ESPECIALIDADES</a></li>
-						<li id="menu-li"><a id="men" href="#">STAFF</a></li>
+						<li id="menu-li"><a id="men" href="#">MEDICOS</a></li>
 						<li id="menu-li"><a id="men" href="#">CONSEJOS</a></li>
 						</div>
 					</div>
