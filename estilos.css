@@ -5,7 +5,15 @@
 	font-family: sans-serif;
 }
 
+.consejos-titulo{
+	width: 100%;
+	height: 100vh;
+}
 
+.staff-titulo{
+	width: 100%;
+	height: 100vh;
+}
 
 
 .title{
@@ -32,6 +40,7 @@
 	background: white;
 	position: sticky;
 	top: 0;
+	z-index: 100;
 }
 
 .menu-cuerpo{
@@ -72,10 +81,52 @@ opacity: 0;
 opacity: 0;
 }
 
-.car1{
+.car{
 	width: 100%;
 	height: 100vh;
 }
+
+.car1{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+}
+
+.texto-portada{
+	position: relative;
+	top: 0px;
+	left: 700px;
+	width: 48%;
+	height: 100vh;
+	background: #892a7e;
+	opacity: .7;
+	z-index: 0;
+}
+
+
+
+.fun{
+	position: relative;
+	top: 80px;
+	color: black;
+	font-size: 50px;
+	font-weight: 700;
+	z-index: 2;
+}
+
+.fun1{
+	position: relative;
+	top: 90px;
+	color: black;
+	font-size: 23px;
+	z-index: 2;
+	text-align: justify;
+	font-family: sans-serif;
+	margin: 10px;
+}
+
+
 
 .footer{
  	background: #3874F0;
@@ -102,12 +153,12 @@ opacity: 0;
 }
 
 .prima{
-	height: 50vh;
-	margin: 70px;
 	background: #3874F0;
-	color: white;
+	width: 100%;
+	margin: 120px;
+	padding: 40px;
 	border-radius: 30px;
-	padding: 30px;
+	color: white;
 }
 
 .foto{
@@ -122,7 +173,7 @@ opacity: 0;
 
 i{
 	float: right;
-	margin: 5px;
+	margin: 2px;
 	font-size: 25px;
 }
 
@@ -475,19 +526,26 @@ p{
  	width: 100%;
  	padding: 40px;
  }
-.car1{
-	width: 100%;
-	height: 50vh;
-}
+ .car1{
+ 	height:50vh;
+ }
+
+ .car{
+ 	width: 100%;
+ 	height: 52vh;
+ }
+
 
 .somos{
 	width: 100%;
-	display: block;
+	height:25vh;
+	position: relative;
 }
 
 .prima{
-	margin: 40px;
-	padding: 35px;
+	height: 25vh;
+	margin: 35px;
+	padding: 30px;
 }
 
 .foto{
@@ -549,7 +607,7 @@ header{
 
 .serv{
 	margin: 20px;
-	max-width: 79.2%;
+	max-width: 75.8%;
 	background: #1f7bc0;
 	margin-left: 45px;
 	border-radius: 5px;
