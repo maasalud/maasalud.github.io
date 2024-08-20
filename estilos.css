@@ -283,10 +283,9 @@ p{
 	top: 25px;  left: 60px;
 }
 
-
 .menu{
 	width: 100%;
-	background: white;
+	background: rgb(255, 255, 255);
 	position: sticky;
 	top: 0;
 }
@@ -295,7 +294,7 @@ p{
 	display: inline-block;
 	position: absolute;
 	width: 100%;
-	background: black;
+	background: rgb(0, 0, 0);
 	left: 0px; top: 145px;
 	height: 100vh;
 	text-align: center;
@@ -305,7 +304,7 @@ p{
 
 #menu-li{
 	list-style: none;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid rgb(255, 255, 255);
 	padding: 2em;
 }
 
